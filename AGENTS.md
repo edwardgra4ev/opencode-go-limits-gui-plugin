@@ -12,6 +12,7 @@ GUI-плагин OpenCode Desktop: лимиты OpenCode Go в полосе вн
 - Проверка RPC на живом сервисе: `opencode2 api post /api/rpc/go-limits/usage -d '{"input":{}}'` (без обёртки `input` — `rpc.invalid_input`).
 - Проверка источника напрямую: `npx tsx -e "import('./src/usage.ts').then(async m => console.log(await m.fetchLimits('opencode/2.3.2', true)))"`.
 - `vite build --watch` перезагружает GUI в окнах; после первого добавления плагина может понадобиться перезапуск Desktop.
+- Релиз: версия в `package.json` → коммит → тег `vX.Y.Z` → `git push origin main --tags`; GitHub Actions соберёт zip и опубликует Release. CI проверяет, что `dist/` закоммичен и совпадает со сборкой.
 
 ## Проверенные факты (не перепроверять)
 
