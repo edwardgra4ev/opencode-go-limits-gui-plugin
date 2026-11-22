@@ -4,6 +4,13 @@ All notable changes to this plugin are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versions use
 [SemVer](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+
+- Animated SVG preview (`assets/preview.svg`) showing the strip: meters filling, the 80%
+  yellow and 100% red thresholds, and a window reset.
+
 ## [0.1.0] - 2026-11-21
 
 ### Added

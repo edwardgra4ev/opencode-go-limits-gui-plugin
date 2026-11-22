@@ -4,6 +4,10 @@ A bottom-strip plugin for OpenCode 2 Desktop that shows your OpenCode Go allowan
 the 5-hour, weekly and monthly meters as small circular rings, with percentages and reset
 countdowns.
 
+<p align="center">
+  <img src="assets/preview.svg" alt="Animated preview: the OpenCode Go limits strip in the OpenCode Desktop window bottom, meters growing, turning yellow at 80% and red at 100%, then resetting" width="1120">
+</p>
+
 Русская версия: [README.ru.md](README.ru.md).
 
 ## Requirements
